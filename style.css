@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background: #111;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1599940824395-848d1123fdd4');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h2 {
+  background-color: rgba(0,0,0,0.6);
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.about {
+  padding: 40px 20px;
+}
+
+footer {
+  padding: 20px;
+  color: #666;
+  background: #111;
+}
